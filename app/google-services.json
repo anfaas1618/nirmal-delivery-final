@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "123302346706",
+    "firebase_url": "https://nirmal-bakery-be611.firebaseio.com",
+    "project_id": "nirmal-bakery-be611",
+    "storage_bucket": "nirmal-bakery-be611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123302346706:android:7f4a610d2e9192af16d20b",
+        "android_client_info": {
+          "package_name": "com.mibtech.dboynirmal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123302346706-9vefofut16om4dmo4ra054l7kojs6dek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmv-Dho6y-MDVAV_ywjXa5s5wMEHw7yBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123302346706-9vefofut16om4dmo4ra054l7kojs6dek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123302346706:android:5810268f6d41ff0016d20b",
+        "android_client_info": {
+          "package_name": "com.mibtech.nirmal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123302346706-qdfs9ck9mplommdfrv889qumud26frn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mibtech.nirmal",
+            "certificate_hash": "e8c284a209b8996e47702dbec1d864557949459a"
+          }
+        },
+        {
+          "client_id": "123302346706-9vefofut16om4dmo4ra054l7kojs6dek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmv-Dho6y-MDVAV_ywjXa5s5wMEHw7yBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123302346706-9vefofut16om4dmo4ra054l7kojs6dek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
