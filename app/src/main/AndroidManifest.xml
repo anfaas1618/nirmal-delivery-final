@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mibtech.dboynirmal">
+    package="com.mibtech.testdelivery">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -11,7 +11,7 @@
         android:required="false" />
 
     <application
-        android:name="com.mibtech.dboynirmal.helper.AppController"
+        android:name="com.mibtech.testdelivery.helper.AppController"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -21,22 +21,22 @@
         tools:replace="android:usesCleartextTraffic,android:allowBackup">
 
         <activity
-            android:name="com.mibtech.dboynirmal.activity.OrderDetailActivity"
+            android:name="com.mibtech.testdelivery.activity.OrderDetailActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name="com.mibtech.dboynirmal.activity.NotificationListActivity"
+            android:name="com.mibtech.testdelivery.activity.NotificationListActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name="com.mibtech.dboynirmal.activity.WalletHistoryActivity"
+            android:name="com.mibtech.testdelivery.activity.WalletHistoryActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name="com.mibtech.dboynirmal.activity.SplashActivity"
+            android:name="com.mibtech.testdelivery.activity.SplashActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -47,31 +47,31 @@
         </activity>
 
         <activity
-            android:name="com.mibtech.dboynirmal.activity.DrawerActivity"
+            android:name="com.mibtech.testdelivery.activity.DrawerActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name="com.mibtech.dboynirmal.activity.LoginActivity"
+            android:name="com.mibtech.testdelivery.activity.LoginActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
 
 
         <activity
-            android:name="com.mibtech.dboynirmal.activity.ProfileActivity"
+            android:name="com.mibtech.testdelivery.activity.ProfileActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.mibtech.dboynirmal.activity.WebViewActivity"
+            android:name="com.mibtech.testdelivery.activity.WebViewActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
-            android:name="com.mibtech.dboynirmal.activity.MainActivity"
+            android:name="com.mibtech.testdelivery.activity.MainActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="adjustResize" />
 
-        <service android:name="com.mibtech.dboynirmal.helper.MyFirebaseMessagingService">
+        <service android:name="com.mibtech.testdelivery.helper.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.mibtech.dboynirmal"
+        applicationId "com.mibtech.testdelivery"
         minSdkVersion 20
         targetSdkVersion 30
         versionCode 1
